@@ -57,21 +57,21 @@
         <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
           <fieldset class="filter-group">
             <legend class="filter-title">Инфраструктура</legend>
-            <input class="input-checkbox" name="pool" type="checkbox" checked>
+            <input class="input-checkbox" name="pool" type="checkbox" id="pool" checked>
             <label class="input-name" for="pool">Бассейн</label><br>
-            <input class="input-checkbox" name="parking" type="checkbox" checked>
+            <input class="input-checkbox" name="parking" type="checkbox" id="parking" checked>
             <label class="input-name" for="parking">Парковка</label><br>
-            <input class="input-checkbox" name="wi-fi" type="checkbox">
+            <input class="input-checkbox" name="wi-fi" type="checkbox" id="wi-fi">
             <label class="input-name" for="wi-fi">Wi-Fi</label><br>
           </fieldset>
           <fieldset class="fliter-group">
             <legend class="filter-title">Тип жилья:</legend>
-            <input class="input-checkbox" id="filter-hotel" name="hotel" type="radio" checked>
-            <label class="input-name" for="filter-hotel">Гостиница</label><br>
-            <input class="input-checkbox" id="motel" name="motel" type="radio">
-            <label class="input-name" for="filter-motel">Мотель</label><br>
-            <input class="input-checkbox" id="aparts" name="aparts" type="radio">
-            <label class="input-name" for="filter-aparts">Апартаменты</label><br>
+            <input class="input-checkbox" id="hotel" name="type" type="radio" value="hotel" checked>
+            <label class="input-name" for="hotel">Гостиница</label><br>
+            <input class="input-checkbox" name="type" id="motel" type="radio" value="motel">
+            <label class="input-name" for="motel">Мотель</label><br>
+            <input class="input-checkbox" name="type" id="aparts" type="radio" value="aparts">
+            <label class="input-name" for="aparts">Апартаменты</label><br>
           </fieldset>
           <fieldset class="fliter-group">
             <legend class="filter-title">Стоимость, ₽:</legend>
