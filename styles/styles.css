@@ -111,79 +111,47 @@ body {
   height: 485px;
 }
 
-
-
-h1 {
-  display: none;
-}
-
-h2 {
-  display: none;
-}
-
-.title-advantages-description {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.main-advantages p {
+.main-advantages {
+  font-family: "PT Sans";
   font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
   text-align: center;
+  font-style: normal;
 }
 
-.advantages-item {
+.advantages-list {
   list-style-type: none;
 }
 
-.advantages-item h3 {
-  font-size: 24px;
-  line-height: 28px;
+.advantages-title-about {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  font-style: bold;
+  background-color: #FFFFFF;
   text-transform: uppercase;
-  width: 175px;
 }
 
-.advantages-item p {
-  font-weight: 400;
+.advantages-description-about {
+  font-family: "PT Sans";
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 24px;
+  Line-height: 28px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-description {
   font-size: 18px;
   line-height: 21px;
-  width: 230px;
-}
-
-.advantages-item li {
-  background-repeat: no-repeat;
-}
-
-.advantages-city {
-  width: 1200px;
-  background-color: #82B3D3;
-  color: #ffffff;
-  background-position: center right;
-}
-
-.advantages-area {
-  width: 400px;
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-road {
-  width: 400px;
-  background-color: rgba(131, 179, 211, 0.2);
-}
-
-.advantages-tourists {
-  width: 400px;
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-bridge {
-  width: 1200px;
-  background-color: #82B3D3;
-  color: #ffffff;
 }
 
 .main-description-title {
@@ -199,6 +167,30 @@ h2 {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+}
+
+.advantages-city {
+  background-color: #82B3D3;
+}
+
+.title-city {
+  color: #FFFFFF;
+}
+
+.description-city {
+  color: #FFFFFF;
+}
+
+.advantages-area {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-road {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.description-area {
+  color: #333333;
 }
 
 .advantages-house {
