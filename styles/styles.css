@@ -607,22 +607,6 @@ h2 {
   list-style-type: none;
 }
 
-.pagination-current {
-  font-size: 20px;
-  line-height: 36px;
-  font-weight: 700;
-  text-transform: none;
-  text-align: center;
-  text-decoration: none;
-  color: #000000;
-  background-color: #F2F2F2;
-  display: block;
-  width: 60px;
-  height: 60px;
-  padding: 12px 19px;
-}
-
-
 .pagination-link {
   font-size: 20px;
   line-height: 36px;
@@ -630,26 +614,26 @@ h2 {
   text-transform: none;
   text-align: center;
   text-decoration: none;
-  color: #ffffff;
-  background-color: #82b3d3;
   display: block;
   width: 60px;
   height: 60px;
   padding: 12px 19px;
 }
 
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-active {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+
 .pagination-ellipsis {
-  font-size: 22px;
-  line-height: 26px;
-  font-weight: 400;
-  text-transform: none;
-  text-align: center;
   color: #000000;
   background-color: #ffffff;
-  display: block;
-  width: 60px;
-  height: 60px;
-  padding: 13px 21px;
 }
 
 
