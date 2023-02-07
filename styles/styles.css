@@ -16,10 +16,30 @@
 
 body {
   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 26px;
   color: #000000;
   background-color: #ffffff;
+}
+
+.description-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-style: bold;
+  text-align: center;
+  color: #000000;
+}
+
+.description-text {
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: none;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
 }
 
 .visually-hidden {
@@ -54,26 +74,23 @@ body {
   list-style-type: none;
 }
 
-.navigation-icon-search {
+.user-link {
+  text-decoration: none;
   display: block;
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
+}
+
+.navigation-icon-search {
   background-image: url("../images/icon-search.svg");
-  text-decoration: none;
 }
 
 .navigation-icon-favorites {
-  display: block;
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
   background-image: url("../images/icon-favorite.svg");
-  text-decoration: none;
 }
 
 .favotites-option {
-  font-weight: 400;
   font-size: 10px;
   line-height: 10px;
   background-color: #7DB54F;
@@ -111,31 +128,11 @@ body {
 
 .main-advantages {
   font-family: "PT Sans";
-  font-weight: 400;
   text-align: center;
-  font-style: normal;
 }
 
 .advantages-list {
   list-style-type: none;
-}
-
-.advantages-title-about {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  color: #000000;
-  font-style: bold;
-  background-color: #FFFFFF;
-  text-transform: uppercase;
-}
-
-.advantages-description-about {
-  font-family: "PT Sans";
-  font-size: 22px;
-  line-height: 26px;
-  color: #333333;
-  background-color: #FFFFFF;
 }
 
 .advantages-title {
@@ -150,21 +147,6 @@ body {
 .advantages-description {
   font-size: 18px;
   line-height: 21px;
-}
-
-.main-description-title {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.description-text {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
 }
 
 .advantages-city {
@@ -215,21 +197,6 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.hotel-search-title {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.hotel-search p {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-}
-
 .search-button {
   font-weight: 700;
   font-size: 20px;
@@ -252,23 +219,12 @@ body {
   height: 414.86px;
 }
 
-.subscribe-wrapper-title-index {
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  font-style: bold;
-  text-align: center;
+.description-title-wrapper {
   color: #FFFFFF;
 }
 
-.subscribe-wrapper-index p {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 22px;
-  line-height: 26px;
-  text-transform: none;
-  text-align: center;
-  text-decoration: none;
+.description-text-wrapper {
+  color: #FFFFFF;
 }
 
 .subscribe-wrapper-index form {
@@ -310,15 +266,10 @@ body {
 
 .footer-contacts-link {
   width: 331px;
-  font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
   color: #000000;
-}
-
-.main-inner {
-  font-weight: normal;
 }
 
 .search-hotel-filters {
@@ -347,7 +298,6 @@ body {
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
-  font-weight: 400;
   text-transform: none;
   text-align: left;
   color: #ffffff;
@@ -432,7 +382,6 @@ body {
 .select-control {
   padding: 16px 127px 16px 20px;
   font-size: 18px;
-  font-weight: 400;
   color: #333333;
   line-height: 21px;
 }
@@ -584,25 +533,6 @@ body {
   background-color: #FFFFFF;
   width: 1200px;
   height: 414.86px;
-}
-
-.subscribe-wrapper-title {
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  font-style: bold;
-  text-align: center;
-  color: #000000;
-}
-
-.subscribe-wrapper p {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 22px;
-  line-height: 26px;
-  text-transform: none;
-  text-align: center;
-  text-decoration: none;
 }
 
 .subscribe-wrapper form {
