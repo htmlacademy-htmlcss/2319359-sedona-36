@@ -59,7 +59,7 @@
         <section class="catalog-filter">
           <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
           <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
-            <fieldset class="filter-group-infrastructure">
+            <fieldset class="filter-group">
               <legend class="filter-title">Инфраструктура</legend>
               <input class="input-checkbox" name="pool" type="checkbox" id="pool" checked>
               <label class="input-name" for="pool">Бассейн</label><br>
@@ -68,7 +68,7 @@
               <input class="input-checkbox" name="wi-fi" type="checkbox" id="wi-fi">
               <label class="input-name" for="wi-fi">Wi-Fi</label><br>
             </fieldset>
-            <fieldset class="fliter-group-home">
+            <fieldset class="fliter-group">
               <legend class="filter-title">Тип жилья:</legend>
               <input class="input-checkbox" id="hotel" name="type" type="radio" value="hotel" checked>
               <label class="input-name" for="hotel">Гостиница</label><br>
@@ -77,15 +77,15 @@
               <input class="input-checkbox" name="type" id="aparts" type="radio" value="aparts">
               <label class="input-name" for="aparts">Апартаменты</label><br>
             </fieldset>
-            <fieldset class="fliter-group-price">
+            <fieldset class="fliter-group">
               <legend class="filter-title">Стоимость, ₽:</legend>
               <label class="min-price">от
                 <input type="text" name="min-price" value="0"></label>
               <label class="max-price">до
                 <input type="text" name="max-price" value="9000"></label>
               <div class="button-wrapper">
-                <button class="submit-button" type="submit">Применить</button><br>
-                <button class="reset-button" type="reset">Сбросить</button>
+                <button class="filter-group-button submit-button" type="submit">Применить</button><br>
+                <button class="filter-group-button reset-button" type="reset">Сбросить</button>
               </div>
             </fieldset>
           </form>
@@ -167,7 +167,7 @@
               alt="GreenTree Inn">
             <h3 class="hotel-card-title">GreenTree Inn</h3>
             <p class="hotel-card-desctiption">Гостиница</p>
-            <p class="hotel-card-pricen">От 1500 ₽</p>
+            <p class="hotel-card-price">От 1500 ₽</p>
             <a class="hotel-card-button-detail" href="#">подробнее</a>
             <a class="hotel-card-button-favorite" href="#">в избранное</a>
             <p class="hotel-stars stars-value-3">
