@@ -480,24 +480,22 @@ h2 {
   line-height: 21px;
 }
 
-.sort-button-mode1 {
+.sort-button {
   width: 48px;
   height: 48px;
   background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.button-mode1 {
   background-image: url("../images/catalog/icons/icon-mode-1.svg");
 }
 
-.sort-button-mode2 {
-  width: 48px;
-  height: 48px;
-  background-repeat: no-repeat;
+.button-mode2 {
   background-image: url("../images/catalog/icons/icon-mode-2.svg");
 }
 
-.sort-button-mode3 {
-  width: 48px;
-  height: 48px;
-  background-repeat: no-repeat;
+.button-mode3 {
   background-image: url("../images/catalog/icons/icon-mode-3.svg");
 }
 
