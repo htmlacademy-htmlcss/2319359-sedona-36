@@ -306,31 +306,24 @@ h2 {
   padding: 8px 50px;
 }
 
-.button-vk {
-  background-image: url("../images/icon-vk.svg");
+.footer-button {
   display: block;
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.button-vk {
+  background-image: url("../images/icon-vk.svg");
 }
 
 .button-tg {
   background-image: url("../images/icon-telegram.svg");
-  display: block;
-  width: 30px;
-  height: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .button-yt {
   background-image: url("../images/icon-youtube.svg");
-  display: block;
-  width: 30px;
-  height: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .footer-contacts-link {
