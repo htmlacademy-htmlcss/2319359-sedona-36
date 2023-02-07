@@ -487,15 +487,15 @@ h2 {
   text-decoration: none;
 }
 
-.button-mode1 {
+.button-mode-1 {
   background-image: url("../images/catalog/icons/icon-mode-1.svg");
 }
 
-.button-mode2 {
+.button-mode-2 {
   background-image: url("../images/catalog/icons/icon-mode-2.svg");
 }
 
-.button-mode3 {
+.button-mode-3 {
   background-image: url("../images/catalog/icons/icon-mode-3.svg");
 }
 
@@ -574,21 +574,20 @@ h2 {
   text-decoration: none;
 }
 
-.stars-value1 {
+.hotel-stars {
   width: 140px;
   height: 37px;
+}
+
+.stars-value-1 {
   background-image: url("../images/catalog/icons/icon-star1.svg");
 }
 
-.stars-value2 {
-  width: 140px;
-  height: 37px;
+.stars-value-2 {
   background-image: url("../images/catalog/icons/icon-star2.svg");
 }
 
-.stars-value3 {
-  width: 140px;
-  height: 37px;
+.stars-value-3 {
   background-image: url("../images/catalog/icons/icon-star3.svg");
 }
 
