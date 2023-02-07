@@ -23,6 +23,10 @@ body {
 
 }
 
+.visually-hidden {
+  color: transparent;
+}
+
 .page-header {
   color: #000000;
   background-color: #ffffff;
@@ -477,7 +481,6 @@ h2 {
 }
 
 .sort-button-mode1 {
-  color: transparent;
   width: 48px;
   height: 48px;
   background-repeat: no-repeat;
@@ -485,7 +488,6 @@ h2 {
 }
 
 .sort-button-mode2 {
-  color: transparent;
   width: 48px;
   height: 48px;
   background-repeat: no-repeat;
@@ -493,17 +495,12 @@ h2 {
 }
 
 .sort-button-mode3 {
-  color: transparent;
   width: 48px;
   height: 48px;
   background-repeat: no-repeat;
   background-image: url("../images/catalog/icons/icon-mode-3.svg");
 }
 
-.catalog-hotel h3 {
-  color: transparent;
-
-}
 
 .hotel-list {
   font-family: "PT Sans", sans-serif;
@@ -580,21 +577,18 @@ h2 {
 }
 
 .stars-value1 {
-  color: transparent;
   width: 140px;
   height: 37px;
   background-image: url("../images/catalog/icons/icon-star1.svg");
 }
 
 .stars-value2 {
-  color: transparent;
   width: 140px;
   height: 37px;
   background-image: url("../images/catalog/icons/icon-star2.svg");
 }
 
 .stars-value3 {
-  color: transparent;
   width: 140px;
   height: 37px;
   background-image: url("../images/catalog/icons/icon-star3.svg");
@@ -661,13 +655,6 @@ h2 {
   padding: 13px 21px;
 }
 
-.pagination-next {
-  color: transparent;
-}
-
-.pagination-disabled {
-  color: transparent;
-}
 
 .subscribe-wrapper {
   color: #000000;
