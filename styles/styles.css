@@ -67,7 +67,7 @@ body {
 }
 
 .navigation-link_active {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #000000;
 }
 
 .account-nav {
@@ -107,7 +107,7 @@ body {
   font-weight: 700;
   line-height: 20px;
   background-color: #756157;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   display: inline-block;
   padding: 8px 50px 8px 50px;
@@ -153,11 +153,11 @@ body {
 }
 
 .title-city {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .description-city {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .advantages-area {
@@ -214,7 +214,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   background-color: #756157;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
   padding: 8px 50px 8px 50px;
   text-decoration: none;
@@ -230,11 +230,11 @@ body {
 }
 
 .description-title-wrapper {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .description-text-wrapper {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subscribe-wrapper-index form {
@@ -334,7 +334,7 @@ body {
   background-image: url("../images/catalog/icons/icon-home.svg");
   background-repeat: no-repeat;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .breadcrumbs-arrow {
@@ -343,7 +343,7 @@ body {
   background-image: url("../images/catalog/icons/icon-arrow.svg");
   background-repeat: no-repeat;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 
@@ -352,7 +352,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-style: bold;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .filter-group {
@@ -369,7 +369,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   display: inline-block;
   padding: 8px 50px 8px 50px;
@@ -464,7 +464,7 @@ body {
 
 .hotel-card-button-detail {
   background-color: #756157;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   display: inline-block;
   padding: 8px 50px 8px 50px;
@@ -472,7 +472,7 @@ body {
 
 .hotel-card-button-favorite {
   background-color: #82B3D3;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   display: inline-block;
   padding: 8px 50px 8px 50px;
@@ -480,7 +480,7 @@ body {
 
 .hotel-card-button-button-favorite {
   background-color: #7DB54F;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   display: inline-block;
   padding: 8px 50px 8px 50px;
@@ -532,7 +532,7 @@ body {
 
 .pagination-current {
   color: #000000;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .pagination-active {
@@ -550,7 +550,7 @@ body {
 .subscribe-wrapper {
   color: #000000;
   background-repeat: no-repeat;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 1200px;
 }
 
@@ -561,7 +561,7 @@ body {
 
 .subscribe-wrapper input {
   font-family: inherit;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 12px 20px 12px 20px;
   font-size: 18px;
   line-height: 24px;
