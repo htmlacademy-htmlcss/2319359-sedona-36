@@ -35,7 +35,7 @@
             <a class="user-link navigation-icon-favorites" href="#">
               <span class="favotites-option">12</span> </a>
           </li>
-          <li class="account-nav-item navigation-button">
+          <li class="account-nav-item">
             <a class="navigation-button-link" href="#">хочу сюда!</a>
           </li>
         </ul>
@@ -60,7 +60,7 @@
         <section class="catalog-filter">
           <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
           <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
-            <fieldset class="filter-group-infrastructure">
+            <fieldset class="filter-group">
               <legend class="filter-title">Инфраструктура</legend>
               <input class="input-checkbox" name="pool" type="checkbox" id="pool" checked>
               <label class="input-name" for="pool">Бассейн</label><br>
@@ -69,7 +69,7 @@
               <input class="input-checkbox" name="wi-fi" type="checkbox" id="wi-fi">
               <label class="input-name" for="wi-fi">Wi-Fi</label><br>
             </fieldset>
-            <fieldset class="fliter-group-home">
+            <fieldset class="fliter-group">
               <legend class="filter-title">Тип жилья:</legend>
               <input class="input-checkbox" id="hotel" name="type" type="radio" value="hotel" checked>
               <label class="input-name" for="hotel">Гостиница</label><br>
@@ -78,15 +78,15 @@
               <input class="input-checkbox" name="type" id="aparts" type="radio" value="aparts">
               <label class="input-name" for="aparts">Апартаменты</label><br>
             </fieldset>
-            <fieldset class="fliter-group-price">
+            <fieldset class="fliter-group">
               <legend class="filter-title">Стоимость, ₽:</legend>
               <label class="min-price">от
                 <input type="text" name="min-price" value="0"></label>
               <label class="max-price">до
                 <input type="text" name="max-price" value="9000"></label>
               <div class="button-wrapper">
-                <button class="submit-button" type="submit">Применить</button><br>
-                <button class="reset-button" type="reset">Сбросить</button>
+                <button class="filter-group-button submit-button" type="submit">Применить</button><br>
+                <button class="filter-group-button reset-button" type="reset">Сбросить</button>
               </div>
             </fieldset>
           </form>
@@ -101,13 +101,13 @@
           <option value="cheap">Сначала дешёвые</option>
           <option value="expensive">Сначала дорогое</option>
         </select>
-        <a class="sort-button-mode1" href="#">
+        <a class="sort-button button-mode-1" href="#">
           <span class="visually-hidden">Показать плитки</span>
         </a>
-        <a class="sort-button-mode2" href="#">
+        <a class="sort-button button-mode-2" href="#">
           <span class="visually-hidden">Показать карточки</span>
         </a>
-        <a class="sort-button-mode3" href="#">
+        <a class="sort-button button-mode-3" href="#">
           <span class="visually-hidden">Показать список</span>
         </a>
       </section>
@@ -122,8 +122,8 @@
             <p class="hotel-card-desctiption">Гостиница</p>
             <p class="hotel-card-price">От 4000 ₽</p>
             <a class="hotel-card-button-detail" href="#">подробнее</a>
-            <a class="hotel-card-button_favorite" href="#">в избранное</a>
-            <p class="stars-value1">
+            <a class="hotel-card-button-favorite" href="#">в избранное</a>
+            <p class="hotel-stars stars-value-1">
               <span class="visually-hidden">Количество звезд</span>
             </p>
             <p class="rating">Рейтинг:
@@ -138,8 +138,8 @@
             <p class="hotel-card-desctiption">Гостиница</p>
             <p class="hotel-card-price">От 5000 ₽</p>
             <a class="hotel-card-button-detail" href="#">подробнее</a>
-            <a class="hotel-card-button-button_favorite" href="#">в избранном</a>
-            <p class="stars-value1">
+            <a class="hotel-card-button-button-favorite" href="#">в избранном</a>
+            <p class="hotel-stars stars-value-1">
               <span class="visually-hidden">Количество звезд</span>
             </p>
             <p class="rating">Рейтинг:
@@ -154,8 +154,8 @@
             <p class="hotel-card-desctiption">Гостиница</p>
             <p class="hotel-card-price">От 2500 ₽</p>
             <a class="hotel-card-button-detail" href="#">подробнее</a>
-            <a class="hotel-card-button_favorite" href="#">в избранное</a>
-            <p class="stars-value2">
+            <a class="hotel-card-button-favorite" href="#">в избранное</a>
+            <p class="hotel-stars stars-value-2">
               <span class="visually-hidden">Количество звезд</span>
             </p>
             <p class="rating">Рейтинг:
@@ -168,10 +168,10 @@
               alt="GreenTree Inn">
             <h3 class="hotel-card-title">GreenTree Inn</h3>
             <p class="hotel-card-desctiption">Гостиница</p>
-            <p class="hotel-card-pricen">От 1500 ₽</p>
+            <p class="hotel-card-price">От 1500 ₽</p>
             <a class="hotel-card-button-detail" href="#">подробнее</a>
-            <a class="hotel-card-button_favorite" href="#">в избранное</a>
-            <p class="stars-value3">
+            <a class="hotel-card-button-favorite" href="#">в избранное</a>
+            <p class="hotel-stars stars-value-3">
               <span class="visually-hidden">Количество звезд</span>
             </p>
             <p class="rating">Рейтинг:
@@ -182,38 +182,38 @@
       </section>
       <ul class="pagination">
         <li class="pagination-item">
-          <a class="pagination-disabled">
+          <a class="pagination-link pagination-disabled">
             <span class="visually-hidden">Предыдущая страница</span>
           </a>
         </li>
         <li class="pagination-item">
-          <a class="pagination-current">1</a>
+          <a class="pagination-link pagination-current">1</a>
         </li>
         <li class="pagination-item">
-          <a class="pagination-link" href="#">2</a>
+          <a class="pagination-link pagination-active" href="#">2</a>
         </li>
         <li class="pagination-item">
-          <a class="pagination-link" href="#">3</a>
+          <a class="pagination-link pagination-active" href="#">3</a>
         </li>
         <li class="pagination-item">
-          <a class="pagination-link" href="#">4</a>
+          <a class="pagination-link pagination-active" href="#">4</a>
         </li>
         <li class="pagination-item">
-          <a class="pagination-ellipsis" href="#">...</a>
+          <a class="pagination-link pagination-ellipsis" href="#">...</a>
         </li>
         <li class="pagination-item">
-          <a class="pagination-link" href="#">10</a>
+          <a class="pagination-link pagination-active" href="#">10</a>
         </li>
         <li class="pagination-item">
-          <a class="pagination-next" href="#">
+          <a class="pagination-link pagination-next" href="#">
             <span class="visually-hidden">Следующая страница</span>
           </a>
         </li>
       </ul>
     </main>
     <section class="subscribe-wrapper">
-      <h3 class="subscribe-wrapper-title">Подпишитесь на рассылку</h3>
-      <p class="subscribe-text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+      <h3 class="description-title">Подпишитесь на рассылку</h3>
+      <p class="description-text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
       <form class="subscribe-form" action="http://echo.htmlacademy.ru" method="post">
         <label class="subscribe-post" for="input">
         </label>
@@ -225,13 +225,13 @@
       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
-          <li class="button-vk" href="#">
+          <li class="social-button button-vk" href="#">
             <a class="visually-hidden">Vkontakte</a>
           </li>
-          <li class="button-tg" href="#">
+          <li class="social-button button-tg" href="#">
             <a class="visually-hidden">Telegram</a>
           </li>
-          <li class="button-yt" href="#">
+          <li class="social-button button-yt" href="#">
             <a class="visually-hidden">Youtube</a>
           </li>
         </ul>
