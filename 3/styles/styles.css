@@ -67,7 +67,7 @@ body {
 }
 
 .navigation-link_active {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #000000;
 }
 
 .account-nav {
@@ -107,7 +107,7 @@ body {
   font-weight: 700;
   line-height: 20px;
   background-color: #756157;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   display: inline-block;
   padding: 8px 50px 8px 50px;
@@ -139,7 +139,6 @@ body {
   font-style: bold;
   font-size: 24px;
   Line-height: 28px;
-  color: #000000;
   text-transform: uppercase;
 }
 
@@ -149,30 +148,36 @@ body {
 }
 
 .advantages-city {
+  color: #ffffff;
   background-color: #82B3D3;
 }
 
-.title-city {
-  color: #FFFFFF;
-}
-
-.description-city {
-  color: #FFFFFF;
-}
-
 .advantages-area {
+  color: #000000;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-road {
+  color: #000000;
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-.description-area {
+.advantages-tourists {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.description-light {
   color: #333333;
 }
 
-.futures-item {
+.advantages-bridge {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+
+.features-item {
   display: block;
   list-style-type: none;
   background-repeat: no-repeat;
@@ -182,27 +187,27 @@ body {
   color: #000000;
 }
 
-.futures-title {
+.features-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
 }
 
-.futures-description {
+.features-description {
   font-size: 18px;
   line-height: 21px;
 }
 
-.futures-house {
+.features-house {
   background-image: url("../images/index/icons/icon-house.svg");
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.futures-food {
+.features-food {
   background-image: url("../images/index/icons/icon-food.svg");
 }
 
-.futures-gift {
+.features-gift {
   background-image: url("../images/index/icons/icon-gift.svg");
   background-color: rgba(131, 179, 211, 0.12);
 }
@@ -214,7 +219,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   background-color: #756157;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
   padding: 8px 50px 8px 50px;
   text-decoration: none;
@@ -230,11 +235,11 @@ body {
 }
 
 .description-title-wrapper {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .description-text-wrapper {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subscribe-wrapper-index form {
@@ -334,7 +339,7 @@ body {
   background-image: url("../images/catalog/icons/icon-home.svg");
   background-repeat: no-repeat;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .breadcrumbs-arrow {
@@ -343,7 +348,7 @@ body {
   background-image: url("../images/catalog/icons/icon-arrow.svg");
   background-repeat: no-repeat;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 
@@ -352,7 +357,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-style: bold;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .filter-group {
@@ -369,7 +374,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   display: inline-block;
   padding: 8px 50px 8px 50px;
@@ -464,7 +469,7 @@ body {
 
 .hotel-card-button-detail {
   background-color: #756157;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   display: inline-block;
   padding: 8px 50px 8px 50px;
@@ -472,7 +477,7 @@ body {
 
 .hotel-card-button-favorite {
   background-color: #82B3D3;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   display: inline-block;
   padding: 8px 50px 8px 50px;
@@ -480,7 +485,7 @@ body {
 
 .hotel-card-button-button-favorite {
   background-color: #7DB54F;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   display: inline-block;
   padding: 8px 50px 8px 50px;
@@ -532,7 +537,7 @@ body {
 
 .pagination-current {
   color: #000000;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .pagination-active {
@@ -550,7 +555,7 @@ body {
 .subscribe-wrapper {
   color: #000000;
   background-repeat: no-repeat;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 1200px;
 }
 
@@ -561,7 +566,7 @@ body {
 
 .subscribe-wrapper input {
   font-family: inherit;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 12px 20px 12px 20px;
   font-size: 18px;
   line-height: 24px;
