@@ -139,7 +139,6 @@ body {
   font-style: bold;
   font-size: 24px;
   Line-height: 28px;
-  color: #000000;
   text-transform: uppercase;
 }
 
@@ -149,30 +148,36 @@ body {
 }
 
 .advantages-city {
+  color: #ffffff;
   background-color: #82B3D3;
 }
 
-.title-city {
-  color: #ffffff;
-}
-
-.description-city {
-  color: #ffffff;
-}
-
 .advantages-area {
+  color: #000000;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-road {
+  color: #000000;
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-.description-area {
+.advantages-tourists {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.description-light {
   color: #333333;
 }
 
-.futures-item {
+.advantages-bridge {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+
+.features-item {
   display: block;
   list-style-type: none;
   background-repeat: no-repeat;
@@ -182,27 +187,27 @@ body {
   color: #000000;
 }
 
-.futures-title {
+.features-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
 }
 
-.futures-description {
+.features-description {
   font-size: 18px;
   line-height: 21px;
 }
 
-.futures-house {
+.features-house {
   background-image: url("../images/index/icons/icon-house.svg");
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.futures-food {
+.features-food {
   background-image: url("../images/index/icons/icon-food.svg");
 }
 
-.futures-gift {
+.features-gift {
   background-image: url("../images/index/icons/icon-gift.svg");
   background-color: rgba(131, 179, 211, 0.12);
 }
