@@ -63,11 +63,11 @@
           <section class="catalog-filter">
             <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
             <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
-              <fieldset class="filter-group infrastructure-block">
-                <legend class="filter-title-catalog">Инфраструктура</legend>
-                <ul class="catalog-filter-list">
+              <fieldset class="catalog-filter-group">
+                <legend class="catalog-filter-title">Инфраструктура</legend>
+                <ul class="catalog-filter-list catalog-filter-checkbox">
                   <li class="catalog-filter-item">
-                    <label class="control control-checkbox">
+                    <label class="control-checker control-checkbox">
                       <input class="control-input" type="checkbox" name="infrastructure" value="pool" checked>
                       Бассейн
                     </label>
@@ -84,11 +84,11 @@
                       WI-FI
                     </label>
                   </li>
-                  <fieldset class="filter-group hotel-type-block">
-                    <legend class="filter-title-catalog-">Тип Жилья</legend>
+                  <fieldset class="catalog-filter-group">
+                    <legend class="catalog-filter-title">Тип Жилья</legend>
                     <ul class="catalog-filter-list">
                       <li class="catalog-filter-item">
-                        <label class="control control-radio">
+                        <label class="control-checker control-radio">
                           <input class="control-input-radio" type="radio" name="hotel-type" value="hotel" checked>
                           Гостиница
                         </label>
@@ -107,8 +107,8 @@
                       </li>
                     </ul>
                   </fieldset>
-                  <fieldset class="fliter-group price-block">
-                    <legend class="filter-title-catalog">Стоимость, ₽:</legend>
+                  <fieldset class="catalog-filtel-group-price">
+                    <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                     <label class="min-price">от
                       <input type="text" name="min-price" value="0"></label>
                     <label class="max-price">до
