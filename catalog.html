@@ -125,10 +125,12 @@
           <p class="sorting-value">Найдено гостиниц:
             <span class="sorting-result">38</span>
           </p>
-          <select class="select-control" aria-label="Сортировка">
-            <option value="cheap" class="sort-selection">Сначала дешёвые</option>
-            <option value="expensive" class="sort-selection">Сначала дорогое</option>
-          </select>
+          <div class="select-item-filter">
+            <select class="select-control" aria-label="Сортировка">
+              <option value="cheap" class="sort-selection">Сначала дешёвые</option>
+              <option value="expensive" class="sort-selection">Сначала дорогое</option>
+            </select>
+          </div>
           <div class="view-type-buttons">
             <a class="sort-button button-mode-1" href="#">
               <span class="visually-hidden">Показать плитки</span>
@@ -242,17 +244,15 @@
         </ul>
       </main>
       <section class="subscribe-wrapper-inner">
-        <div class="main-form">
-          <h3 class="description-title description-title-inner">Подпишитесь на рассылку</h3>
-          <p class="description-text description-text-inner">Только полезная информация и никакого спама,<br> честное
-            бойскаутское!</p>
-          <form class="subscribe-form" action="http://echo.htmlacademy.ru" method="post">
-            <label class="subscribe-post" for="input">
-            </label>
-            <input class="input-form" type="email" id="input" placeholder="Ваш e-mail" name="user-email">
-            <button class="input-button" type="submit">Подписаться</button>
-          </form>
-        </div>
+        <h3 class="description-title description-title-inner">Подпишитесь на рассылку</h3>
+        <p class="description-text description-text-inner">Только полезная информация и никакого спама,<br> честное
+          бойскаутское!</p>
+        <form class="subscribe-form" action="http://echo.htmlacademy.ru" method="post">
+          <label class="subscribe-post" for="input">
+          </label>
+          <input class="input-form" type="email" id="input" placeholder="Ваш e-mail" name="user-email">
+          <button class="input-button" type="submit">Подписаться</button>
+        </form>
       </section>
       <footer class="page-footer">
         <section class="footer-social">
