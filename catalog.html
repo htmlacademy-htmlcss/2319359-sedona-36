@@ -32,7 +32,7 @@
                 <span class="visually-hidden">Поиск</span>
               </a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item navigation-item-favorites">
               <a class="navigation-link icon-favorites" href="#">
                 <span class="visually-hidden">Избранное</span>
                 <span class="favotites-option">12</span> </a>
@@ -83,42 +83,43 @@
                       WI-FI
                     </label>
                   </li>
-                  <fieldset class="catalog-filter-group">
-                    <legend class="catalog-filter-title">Тип Жилья</legend>
-                    <ul class="catalog-filter-list">
-                      <li class="catalog-filter-item">
-                        <label class="filter-control">
-                          <input class="control-input input-radio" type="radio" name="hotel-type" value="hotel" checked>
-                          Гостиница
-                        </label>
-                      </li>
-                      <li class="catalog-filter-item">
-                        <label class="filter-control">
-                          <input class="control-input input-radio" type="radio" name="hotel-type" value="motel">
-                          Мотель
-                        </label>
-                      </li>
-                      <li class="catalog-filter-item">
-                        <label class="filter-control">
-                          <input class="control-input input-radio" type="radio" name="hotel-type" value="apartament">
-                          Апартаменты
-                        </label>
-                      </li>
-                    </ul>
-                  </fieldset>
-                  <fieldset class="catalog-filter-group filtel-price">
-                    <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-                    <label class="filter-control">от
-                      <input class="filter-control_min input-text" type="number" name="min-price" value="0"></label>
-                    <label class="filter-control">до
-                      <input class="filter-control_max input-text" type="number" name="max-price" value="9000"></label>
-                    <label class="filter-control">от
-                      <input class="filter-control_input" type="range" name="price-range"></label>
-                    <div class="filter-button-wrapper">
-                      <button class="filter-group-button submit-button" type="submit">Применить</button><br>
-                      <button class="filter-group-button reset-button" type="reset">Сбросить</button>
-                    </div>
-                  </fieldset>
+              </fieldset>
+              <fieldset class="catalog-filter-group">
+                <legend class="catalog-filter-title">Тип Жилья</legend>
+                <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="filter-control">
+                      <input class="control-input input-radio" type="radio" name="hotel-type" value="hotel" checked>
+                      Гостиница
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="filter-control">
+                      <input class="control-input input-radio" type="radio" name="hotel-type" value="motel">
+                      Мотель
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="filter-control">
+                      <input class="control-input input-radio" type="radio" name="hotel-type" value="apartament">
+                      Апартаменты
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset class="catalog-filter-group filtel-price">
+                <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+                <label class="filter-control">от
+                  <input class="filter-control_min input-text" type="number" name="min-price" value="0"></label>
+                <label class="filter-control">до
+                  <input class="filter-control_max input-text" type="number" name="max-price" value="9000"></label>
+                <label class="filter-control">от
+                  <input class="filter-control_input" type="range" name="price-range"></label>
+                <div class="filter-button-wrapper">
+                  <button class="filter-group-button submit-button" type="submit">Применить</button><br>
+                  <button class="filter-group-button reset-button" type="reset">Сбросить</button>
+                </div>
+              </fieldset>
             </form>
           </section>
         </div>
@@ -265,7 +266,9 @@
             </li>
           </ul>
         </section>
-        <a class="footer-contacts" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <section class="footer-contacts">
+          <a class="footer-contacts-link" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        </section>
         <a class="footer-developer-link" href="#">
           <img class="footer-developer-image" src="images/logo-htmlacademy.svg" width="114.9" height="32.9"
             alt="Логотип HTML Academy"> </a>
