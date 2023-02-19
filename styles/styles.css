@@ -491,7 +491,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 35px 70px 70px 70px;
-  min-height: 412px;
+  max-height: 412px;
 }
 
 .page-title {
@@ -553,15 +553,37 @@ body {
   color: #ffffff;
 }
 
-.catalog-filter {
+.filter-form {
   display: flex;
-  justify-content: space-between;
+  padding-top: 40px;
+  flex-direction: row;
+  margin-block: 32px;
+  margin: 0;
 }
 
 .catalog-filter-group {
+  display: flex;
+  flex-wrap: wrap;
   border: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+.filter-infrastructure {
+  margin: 0;
+  padding: 0;
+}
+
+.filter-type-house {
+  margin: 0;
+  padding: 0;
+  padding-left: 70px;
+}
+
+.filtel-price {
+  margin: 0;
+  margin-inline-start: auto;
+  padding-left: 167px;
 }
 
 .catalog-filter-title {
@@ -578,15 +600,25 @@ body {
 
 .catalog-filter-list {
   display: flex;
-  padding: 0;
   margin: 0;
-  margin-top: 40px;
+  padding: 0;
+  padding-top: 32px;
   border: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   color: #ffffff;
   list-style-type: none;
+  flex-direction: column;
+}
+
+.catalog-filter-item {
+  display: flex;
+}
+
+.filter-control {
+  display: flex;
+  padding-bottom: 16px;
 }
 
 .control-input {
@@ -597,11 +629,11 @@ body {
   color: inherit;
 }
 
-.catalog-filtel-group-price {
+.filtel-price {
   display: flex;
   border: none;
   padding-top: 34px;
-  padding-left: 127px;
+  padding-left: 167px;
   flex-wrap: wrap;
 }
 
