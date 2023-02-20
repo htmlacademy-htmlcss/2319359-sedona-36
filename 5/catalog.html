@@ -65,7 +65,7 @@
             <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
               <fieldset class="catalog-filter-group filter-infrastructure">
                 <legend class="catalog-filter-title">Инфраструктура</legend>
-                <ul class="catalog-filter-list catalog-filter-checkbox">
+                <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                     <label class="filter-control">
                       <input class="control-input" type="checkbox" name="infrastructure" value="pool" checked>
@@ -81,7 +81,7 @@
                   <li class="catalog-filter-item">
                     <label class="filter-control">
                       <input class="control-input" type="checkbox" name="infrastructure" value="wifi">
-                      WI-FI
+                      Wi-Fi
                     </label>
                   </li>
               </fieldset>
@@ -110,17 +110,29 @@
               </fieldset>
               <fieldset class="catalog-filter-group filtel-price">
                 <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-                <label class="filter-control">от
-                  <input class="filter-control_min input-text" type="number" name="min-price" value="0"></label>
-                <label class="filter-control">до
-                  <input class="filter-control_max input-text" type="number" name="max-price" value="9000"></label>
-                <label class="filter-control">от
-                  <input class="filter-control_input" type="range" name="price-range"></label>
-                <div class="filter-button-wrapper">
-                  <button class="filter-group-button submit-button" type="submit">Применить</button><br>
-                  <button class="filter-group-button reset-button" type="reset">Сбросить</button>
+                <div class="range-wrapper">
+                  <div class="range-wrapper-inputs">
+                    <input class="range-input" id="min-price" type="number" value="0" name="min-price">
+                    <label class="filter-price-label-right" for="min-price">от</label>
+                    <input class="range-input" id="max-price" type="number" value="9000" name="max-price">
+                    <label class="filter-price-label-left" for="max-price">до</label>
+                  </div>
+                  <div class="range-scale">
+                    <div class="range" style="right: 70px; width: 226px">
+                      <button class="range-toggle toggle-min" type="button">
+                        <span class="visually-hidden">Изменить минимальную цену.</span>
+                      </button>
+                      <button class="range-toggle toggle-max" type="button">
+                        <span class="visually-hidden">Изменить максимальную цену.</span>
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </fieldset>
+              <div class="filter-button-wrapper">
+                <button class="filter-group-button submit-button" type="submit">Применить</button>
+                <button class="filter-group-button reset-button" type="reset">Сбросить</button>
+              </div>
             </form>
           </section>
         </div>
