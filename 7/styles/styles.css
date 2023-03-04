@@ -156,7 +156,7 @@ body {
 }
 
 .navigation-link-button:focus {
-  outline: 3px solid #83b3d3;
+  box-shadow: 0 0 0 3px #83b3d3;
   background-color: #615048;
 }
 
@@ -225,8 +225,7 @@ body {
   display: flex;
   flex-direction: column;
   max-height: 261px;
-  padding-top: 69px;
-  padding-bottom: 90px;
+  padding: 69px 0 90px 0;
 }
 
 .main-advantages {
@@ -240,7 +239,6 @@ body {
   list-style-type: none;
   flex-wrap: wrap;
   text-align: center;
-  align-items: center;
   box-sizing: content-box;
 }
 
@@ -251,6 +249,7 @@ body {
 .advantages-item-content {
   width: 400px;
   padding: 102px 85px;
+  box-sizing: border-box;
 }
 
 .advantages-item-photo {
@@ -277,22 +276,16 @@ body {
 }
 
 .advantages-area {
-  display: flex;
-  align-items: center;
   color: #000000;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-road {
-  display: flex;
-  align-items: center;
   color: #000000;
   background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantages-tourists {
-  display: flex;
-  align-items: center;
   color: #000000;
   background-color: rgba(131, 179, 211, 0.12);
 }
@@ -333,7 +326,7 @@ body {
 }
 
 .features-block {
-  padding: 64px 0;
+  padding: 64px 0 64px 0;
 }
 
 .features-list {
@@ -414,7 +407,7 @@ body {
 }
 
 .search-button:focus {
-  outline: 3px solid #83b3d3;
+  box-shadow: 0 0 0 3px #83b3d3;
   background-color: #615048;
 }
 
@@ -484,7 +477,7 @@ body {
 
 .input-button:focus {
   background-color: #68a2ca;
-  outline: 3px solid #83b3d3;
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
 .input-button:active {
@@ -507,7 +500,7 @@ body {
 
 .footer-social-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -532,14 +525,9 @@ body {
 }
 
 .footer-social-link:active {
-  outline: none;
+  box-shadow: none;
   fill: #68a2ca;
   opacity: 30%;
-}
-
-.footer-contacts {
-  margin-left: 41.5px;
-  margin-right: 41.5px;
 }
 
 .footer-contacts-link {
@@ -549,7 +537,6 @@ body {
   color: #000000;
   text-transform: uppercase;
   display: block;
-  padding: 5px 194px 5px 195px;
 }
 
 .footer-contacts-link:hover {
@@ -561,7 +548,7 @@ body {
 }
 
 .footer-contacts-link:active {
-  outline: none;
+  box-shadow: none;
   color: #756157;
   opacity: 30%;
 }
@@ -588,7 +575,7 @@ body {
 }
 
 .footer-logo:active {
-  outline: none;
+  box-shadow: none;
   fill: #756157;
   opacity: 30%;
 }
@@ -630,7 +617,17 @@ body {
   display: flex;
   align-items: center;
   position: relative;
-  padding: 0 10px 0 0;
+}
+
+.breadcrumbs-item:not(:last-child)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 20px;
+  background-image: url("../images/catalog/icons/icon-arrow.svg");
+  background-repeat: no-repeat;
+  left: 23px;
 }
 
 .breadcrumbs-item:last-child {
@@ -642,14 +639,10 @@ body {
   fill: #ffffff;
 }
 
-.navigation-link-icon-arrow {
-  fill: #ffffff;
-  margin-top: 5px;
-}
-
 .breadcrumbs-link {
   font-size: 16px;
   color: #ffffff;
+  margin-left: 28px;
 }
 
 .breadcrumbs-link:hover {
@@ -751,20 +744,30 @@ body {
   align-items: center;
   width: 288px;
   margin-top: 32px;
+  height: 48px;
+}
+
+.range-wrapper-input-right {
+  margin-right: 2px;
+  position: relative;
 }
 
 .filter-price-label-right {
-  margin-left: -30px;
-  margin-right: 16px;
-  color: #a9a9a9;
-}
-
-.filter-price-label-left {
-  margin-left: -30px;
+  position: absolute;
   color: #a9a9a9;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
+  margin-left: -30px;
+  margin-top: 12px;
+}
+
+.filter-price-label-left {
+  color: #a9a9a9;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-left: -30px;
 }
 
 .range-input {
@@ -776,16 +779,24 @@ body {
   font: inherit;
   border: none;
   width: 143px;
+  height: 48px;
   font-weight: 700;
-  border-radius: 4px;
+}
+
+.range-input-right {
+  border-radius: 4px 0 0 4px;
+}
+
+.range-input-left {
+  border-radius: 0 4px 4px 0;
 }
 
 .range-input:focus {
-  outline: 3px solid #83b3d3;
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
 .range-input:active {
-  outline: 2px solid #000000;
+  box-shadow: 0 0 0 3px #000000;
 }
 
 .range {
@@ -865,7 +876,7 @@ body {
 
 .submit-button:focus {
   background-color: #68a2ca;
-  outline: 3px solid #83b3d3;
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
 .submit-button:active {
@@ -889,7 +900,7 @@ body {
 }
 
 .reset-button:focus {
-  outline: 3px solid #83b3d3;
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
 .reset-button:active {
@@ -910,6 +921,7 @@ body {
   display: flex;
   margin: 0 auto;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .sorting-value {
@@ -940,7 +952,8 @@ body {
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   box-sizing: border-box;
-  background: url("../images/catalog/icons/icon-arrowdown.svg") no-repeat;
+  background-image: url("../images/catalog/icons/icon-arrowdown.svg");
+  background-repeat: no-repeat;
   background-size: 12px 7px;
   background-color: #ffffff;
   text-align: left;
@@ -949,19 +962,19 @@ body {
 }
 
 .select-control-sort:hover {
-  outline: 2px solid #68a2ca;
+  box-shadow: 0 0 0 3px #68a2ca;
 }
 
 .select-control-sort:focus {
-  outline: 2px solid #68a2ca;
+  box-shadow: 0 0 0 3px #68a2ca;
 }
 
 .select-control-sort:active {
-  outline: 2px solid #3f5e72;
+  box-shadow: 0 0 0 3px #3f5e72;
 }
 
 .select-control-sort:disabled {
-  outline: 2px solid #000000;
+  box-shadow: 0 0 0 3px #000000;
   color: #000000;
   opacity: 30%;
 }
@@ -985,15 +998,15 @@ body {
 }
 
 .sort-button:hover {
-  outline: 2px solid #000000;
+  box-shadow: 0 0 0 3px #000000;
 }
 
 .sort-button:focus {
-  outline: 2px solid #68a2ca;
+  box-shadow: 0 0 0 3px #68a2ca
 }
 
 .sort-button:active {
-  outline: 2px solid #000000;
+  box-shadow: 0 0 0 3px #000000;
 }
 
 .sort-button:last-child {
@@ -1115,7 +1128,7 @@ body {
 }
 
 .button-detail:focus {
-  outline: 3px solid #83b3d3;
+  box-shadow: 0 0 0 3px #83b3d3;
   background-color: #615048;
 }
 
@@ -1137,7 +1150,7 @@ body {
 }
 
 .button-favorite:focus {
-  outline: 3px solid #83b3d3;
+  box-shadow: 0 0 0 3px #83b3d3;
   background-color: #68a2ca;
 }
 
@@ -1159,7 +1172,7 @@ body {
 }
 
 .button_favorite:focus {
-  outline: 3px solid #83b3d3;
+  box-shadow: 0 0 0 3px #83b3d3;
   background-color: #6c9e42;
 }
 
@@ -1234,12 +1247,12 @@ body {
 }
 
 .pagination-active:hover {
-  outline: 2px solid #83b3d3;
+  box-shadow: 0 0 0 3px #83b3d3;
   background-color: #68a2cc;
 }
 
 .pagination-active:focus {
-  outline: 2px solid #83b3d3;
+  box-shadow: 0 0 0 3px #83b3d3;
   background-color: #68a2cc;
 }
 
