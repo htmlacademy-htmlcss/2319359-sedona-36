@@ -67,15 +67,10 @@
                   </svg>
                 </a>
               </li>
-              <li class="breadcrumbs-item">
+              <!-- <li class="breadcrumbs-item">
                 <a class="navigation-link-icon-arrow" href="">
-                  <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="8" height="21">
-                    <path
-                      d="M6.92 9.97 2.17 5.72c-.25-.25-.75-.25-1.13 0-.37.25-.25.75 0 1l4.13 3.75-4 3.75a.76.76 0 0 0 0 1c0 .12.37.25.5.25.12 0 .37-.13.5-.25l4.75-4.25a.59.59 0 0 0 0-1Z" />
-                  </svg>
                 </a>
-
-              </li>
+              </li> -->
               <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link">Гостиницы</a>
               </li>
@@ -139,9 +134,13 @@
                 <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                 <div class="range-wrapper">
                   <div class="range-wrapper-inputs">
-                    <input class="range-input" id="min-price" type="number" value="0" name="min-price">
-                    <label class="filter-price-label-right" for="min-price">от</label>
-                    <input class="range-input" id="max-price" type="number" value="9000" name="max-price">
+                    <div class="range-wrapper-input-right">
+                      <input class="range-input range-input-right" id="min-price" type="number" value="0"
+                        name="min-price">
+                      <label class="filter-price-label-right" for="min-price">от</label>
+                    </div>
+                    <input class="range-input range-input-left" id="max-price" type="number" value="9000"
+                      name="max-price">
                     <label class="filter-price-label-left" for="max-price">до</label>
                   </div>
                   <div class="range">
@@ -203,8 +202,6 @@
           <section class="catalog-hotel">
             <h2 class="visually-hidden">Список гостиниц</h2>
             <ul class="hotel-list">
-
-
               <li class="hotel-card">
                 <a class="hotel-card-link" href="hotel.html">
                   <h3 class="hotel-card-title">Amara Resort & Spa</h3>
