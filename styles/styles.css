@@ -991,7 +991,7 @@ body {
   display: flex;
   white-space: nowrap;
   font-size: 30px;
-  line-height: 39px;
+  line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
@@ -1014,6 +1014,7 @@ body {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   line-height: 21px;
+  height: 49px;
   color: #333333;
   background-color: #ffffff;
   border: 2px solid #e5e5e5;
@@ -1027,19 +1028,19 @@ body {
   cursor: pointer;
 }
 
-.select-control-sort:hover {
+.select-control:hover {
   box-shadow: 0 0 0 3px #68a2ca;
 }
 
-.select-control-sort:focus {
+.select-control:focus {
   box-shadow: 0 0 0 3px #68a2ca;
 }
 
-.select-control-sort:active {
+.select-control:active {
   box-shadow: 0 0 0 3px #3f5e72;
 }
 
-.select-control-sort:disabled {
+.select-control:disabled {
   box-shadow: 0 0 0 3px #000000;
   color: #000000;
   opacity: 30%;
