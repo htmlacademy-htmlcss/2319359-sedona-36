@@ -205,7 +205,7 @@
         </section>
       </footer>
     </div>
-    <div class="modal-container">
+    <div class="modal-container modal-container-close">
       <div class="modal modal-auth">
         <button class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
@@ -215,32 +215,33 @@
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
             <p class="field-group-check-in">
-              <span class="modal-label label-check-in">Дата заезда:</span>
-              <label class="visually-hidden" for="auth-login">
-              </label>
+              <label class="modal-label label-check-in" for="aufh-login">Дата Заезда:</label>
               <input class="input-search-form" type="text" id="auth-login" name="auth-date"
                 placeholder="27 апреля 2020">
             </p>
-            <div class="error-text">Мы не можем отправить вас в прошлое.</div>
+
+            <p class="message-text message-text-error">Мы не можем отправить вас в прошлое.</p>
+
             <p class="field-group-departure">
-              <span class="modal-label label-departure">Дата выезда:</span>
-              <label class="visually-hidden" for="auth-date">Дата выезда:</label>
+              <label class="modal-label label-departure" for="auth-date">Дата выезда:</label>
               <input class="input-search-form" type="text" id="auth-date" name="auth-date"
                 placeholder="1 сентября 2021">
             </p>
-            <div class="explaining-text">На эти даты есть свободные номера. Пока есть.</div>
+
+            <p class="message-text message-text-explaining">На эти даты есть свободные номера. Пока есть.</p>
+
             <div class="quantity-container">
               <div class="field-group-adults">
                 <label class="modal-label label-adults" for="auth-number">Взрослые:</label>
                 <div class="modal-buttons">
-                  <button class="modal-button modal-button-minus" type="submit">
+                  <button class="modal-button modal-button-minus" type="button">
                     <svg class="minus" area-hidden="true" focusable="false" width="21" height="20"
                       xmlns="http://www.w3.org/2000/svg">
                       <path d="M3.39282 9V11H17.3928V9H3.39282Z" />
                     </svg>
                   </button>
                   <input class="choose-form-number" type="number" id="check-in-number" name="check-in-number" value="2">
-                  <button class="modal-button modal-button-plus" type="submit">
+                  <button class="modal-button modal-button-plus" type="button">
                     <svg class="plus" area-hidden="true" focusable="false" width="20" height="20"
                       xmlns="http://www.w3.org/2000/svg">
                       <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" />
@@ -269,14 +270,14 @@
                   </span>
                 </span>
                 <div class="modal-buttons">
-                  <button class="modal-button modal-button-minus" type="submit">
+                  <button class="modal-button modal-button-minus" type="button">
                     <svg class="minus" area-hidden="true" focusable="false" width="21" height="20"
                       xmlns="http://www.w3.org/2000/svg">
                       <path d="M3.39282 9V11H17.3928V9H3.39282Z" />
                     </svg>
                   </button>
                   <input class="choose-form-number" type="number" id="check-in-number" name="check-in-number" value="2">
-                  <button class="modal-button modal-button-plus" type="submit">
+                  <button class="modal-button modal-button-plus" type="button">
                     <svg class="plus" area-hidden="true" focusable="false" width="20" height="20"
                       xmlns="http://www.w3.org/2000/svg">
                       <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" />
@@ -285,9 +286,9 @@
                 </div>
               </div>
             </div>
-            <div class="modal-search-button">
-              <a class="modal-search-button-wrapper" href="#">Найти</a>
-            </div>
+            <button class="modal-search-button" type="submit">
+              <span class="modal-search-button-text">Найти</span>
+            </button>
       </div>
       </form>
 
