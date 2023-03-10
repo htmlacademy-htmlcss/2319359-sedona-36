@@ -1489,23 +1489,6 @@ body {
   cursor: pointer;
 }
 
-.search-form-form-form {
-  position: absolute;
-}
-
-.modal-close-button::before {
-  display: block;
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 17px;
-  right: 16px;
-  background-image: url("../images/modal/icon-close.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .modal-close-button:hover {
   background-color: #e6e6e6;
 }
@@ -1517,6 +1500,13 @@ body {
 
 .modal-close-button:active {
   background-color: #e6e6e6;
+}
+
+.modal-icon-close:focus {
+  outline: none;
+}
+
+.modal-icon-close:active {
   color: #a1a1a1;
 }
 
@@ -1672,24 +1662,6 @@ body {
   cursor: pointer;
 }
 
-.modal-button:hover {
-  background-color: #f2f2f2;
-  color: #000000;
-}
-
-.modal-button:focus {
-  box-shadow: 0 0 0 3px #83b3d3;
-}
-
-.modal-button:active {
-  background-color: #f2f2f2;
-  opacity: 20%;
-}
-
-.modal-button:focus-visible {
-  outline: none;
-}
-
 .modal-button-minus {
   content: "";
   width: 40px;
@@ -1699,6 +1671,24 @@ body {
   border-radius: 4px;
 }
 
+.minus:hover {
+  color: #000000;
+}
+
+.minus:focus {
+  outline: none;
+  border: 3px solid #82B3D3;
+  border-radius: 4px;
+}
+
+.minus:active {
+  opacity: 20%;
+}
+
+.minus:focus-visible {
+  outline: none;
+}
+
 .modal-button-plus {
   content: "";
   width: 40px;
@@ -1706,6 +1696,24 @@ body {
   right: 0;
   padding: 14px 10px;
   border-radius: 4px;
+}
+
+.plus:hover {
+  color: #000000;
+}
+
+.plus:focus {
+  outline: none;
+  border: 3px solid #82B3D3;
+  border-radius: 4px;
+}
+
+.plus:active {
+  opacity: 20%;
+}
+
+.plus:focus-visible {
+  outline: none;
 }
 
 .choose-form-number {
@@ -1720,6 +1728,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   border: none;
+}
+
+.choose-form-number:focus-visible {
+  outline: none;
 }
 
 .choose-form-number::-webkit-outer-spin-button,
