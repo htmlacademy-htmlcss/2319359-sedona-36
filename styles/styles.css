@@ -645,7 +645,7 @@ body {
 
 .breadcrumbs-item:last-child {
   padding: 0;
-  width: 73px;
+  min-width: 800px;
 }
 
 .navigation-link-icon-home {
@@ -1284,7 +1284,6 @@ body {
   min-height: 37px;
   margin: 0;
   background-repeat: no-repeat;
-  margin-top: 10px;
 }
 
 .stars-value-1 {
@@ -1458,12 +1457,8 @@ body {
   background-color: #e6e6e6;
 }
 
-.modal-icon-close:focus {
-  outline: none;
-}
-
-.modal-icon-close:active {
-  color: #a1a1a1;
+.modal-close-button:active svg {
+  opacity: 30%;
 }
 
 .modal-close-button:focus-visible {
@@ -1615,6 +1610,7 @@ body {
   color: #FFFFFF;
   border: none;
   cursor: pointer;
+  background-color: #f2f2f2;
 }
 
 .modal-button-minus {
@@ -1643,6 +1639,10 @@ body {
   outline: none;
   border: 2px solid #82B3D3;
   border-radius: 4px;
+}
+
+.modal-button:disabled svg {
+  opacity: 20%;
 }
 
 .modal-button-plus {
