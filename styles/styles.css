@@ -750,7 +750,6 @@ body {
 .control-input:focus-visible + .control-mark {
   outline: none;
   box-shadow: 0 0 0 3px #83b3d3;
-  opacity: 25%;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before,
