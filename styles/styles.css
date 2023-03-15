@@ -557,7 +557,7 @@ body {
 }
 
 .footer-contacts-link:active {
-  box-shadow: none;
+  outline: none;
   color: rgba(117, 97, 87, 0.3);
 }
 
@@ -585,7 +585,7 @@ body {
 }
 
 .footer-logo:active {
-  box-shadow: none;
+  outline: none;
   background: rgba(117, 97, 87, 0.3);
 }
 
