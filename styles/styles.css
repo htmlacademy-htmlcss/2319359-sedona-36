@@ -532,14 +532,12 @@ body {
 }
 
 .footer-social-link:active {
-  outline: none;
   fill: #68a2ca;
   opacity: 30%;
 }
 
 .footer-social-link:focus-visible {
   fill: #68a2ca;
-  outline: none;
 }
 
 .footer-contacts-link {
@@ -557,13 +555,11 @@ body {
 }
 
 .footer-contacts-link:active {
-  outline: none;
   color: rgba(117, 97, 87, 0.3);
 }
 
 .footer-contacts-link:focus-visible {
   color: #756157;
-  outline: none;
 }
 
 .footer-logo-wrapper {
@@ -585,13 +581,11 @@ body {
 }
 
 .footer-logo:active {
-  outline: none;
   background: rgba(117, 97, 87, 0.3);
 }
 
 .footer-logo:focus-visible {
   fill: #756157;
-  outline: none;
 }
 
 .search-hotel-filters {
@@ -781,7 +775,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #3f5e72;
   content: "";
 }
 
